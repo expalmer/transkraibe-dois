@@ -1,0 +1,78 @@
+:root {
+  --primary: rgb(229, 9, 20);
+  --primary-hover: #9466ff;
+  --gray: #e1e1e6;
+  --text: #a8a8b3;
+  --base-text: #c4c4cc;
+  --support: #8d8d99;
+  --shape: #202024;
+  --shape-dark: #3c3c42;
+  --shape-hover: #29292e;
+  --icons: #505059;
+  --attention: #fd951f;
+  --border: #323238;
+  --black: #09090a;
+}
+body {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell,
+    'Helvetica Neue', sans-serif;
+  background-color: #000;
+  background-image: linear-gradient(45deg, #000000 0%, #131012 100%);
+}
+
+a {
+  color: rgb(0, 100, 200);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: rgb(0, 80, 160);
+}
+
+label {
+  display: block;
+}
+
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  -webkit-padding: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
+
+input:disabled {
+  color: #ccc;
+}
+
+button {
+  color: #333;
+  background-color: #f4f4f4;
+  outline: none;
+}
+
+button:disabled {
+  color: #999;
+}
+
+button:not(:disabled):active {
+  background-color: #ddd;
+}
+
+button:focus {
+  border-color: #666;
+}
